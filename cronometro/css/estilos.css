@@ -1,0 +1,71 @@
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size:50px;
+    color:#0ff;
+
+    text-shadow:
+        0 0 5px #0ff,
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #00ffff,
+        0 0 80px #00ffff;
+
+    margin-bottom:30px;
+}
+
+body{
+    font-family: Arial;
+    text-align: center;
+    background:#f4f4f4;
+    background-color: #0b2e33;
+}
+
+.corredor{
+    background:#93b1b5;
+    padding:15px;
+    margin:10px auto;
+    width:300px;
+    border-radius:8px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+    
+}
+
+.tiempo{
+    font-size:22px;
+    margin:10px;
+}
+
+button{
+    padding:8px 12px;
+    margin:5px;
+    cursor:pointer;
+}
+
+.crear{
+    background:#B8E3E9;
+    color:black;
+    
+}
+/* PANEL DE BOTONES DERECHO */
+
+#panelBotones{
+    position: fixed;
+    right: 20px;
+    top: 120px;
+    width: 220px;
+}
+
+#panelBotones button{
+    width:100%;
+    padding:12px;
+    margin-bottom:10px;
+    font-size:16px;
+    background:#B8E3E9;
+    color:black;
+    border:none;
+    border-radius:6px;
+}
+
+#panelBotones button:hover{
+    background:#cc0000;
+}

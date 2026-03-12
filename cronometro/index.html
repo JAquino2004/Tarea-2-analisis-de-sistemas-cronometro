@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Cronómetro de Carrera</title>
+
+<link rel="stylesheet" href="css/estilos.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>Juez de Carrera</h1>
+
+<input 
+type="number"
+min="1"
+class="crear"
+id="numCorredores"
+placeholder="Número de corredores"
+>
+
+<button class="crear" onclick="crearCorredores()">
+Crear
+</button>
+
+<br><br>
+
+<button class="crear" onclick="iniciarCarrera()">
+INICIAR CARRERA
+</button>
+
+<button class="crear" onclick="exportarPDF()">
+Exportar resultados a PDF
+</button>
+
+<div id="corredores"></div>
+
+<div id="panelBotones"></div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
